@@ -17,15 +17,15 @@ int main()
 
    root1 = (-b + sqrt(pow(b,2)- 4 * a * c)) / (2 * a);
    root2 = (-b - sqrt(pow(b,2)- 4 * a * c)) / (2 * a);
-   singleroot = (-b + sqrt(pow(b,2)- 4 * a * c)) / (2 * a);
+   singleroot = root1;
 
    if(pow(b,2) - 4 * a * c < 0)
-     cout << " complex roots " << endl;
+     cout << "Complex roots " << endl;
    if (pow(b,2) - 4 * a * c > 0)
-     cout << " two real roots " << " the first root is " << root1 
-     << " the second root is " << root2 << endl;
+     cout << "Two real roots " << " \n- First root " << root1 
+     << " \n- Second root " << root2 << endl;
    if (pow(b,2) - 4 * a * c == 0)
-     cout << " one real root " << " single root is "
+     cout <<" The single root is "
      << singleroot << endl;
  return 0;
 }
