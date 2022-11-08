@@ -17,11 +17,11 @@ int main()
    root1 = (-b + sqrt(pow(b,2)- 4 * a * c)) / (2 * a);
    root2 = (-b - sqrt(pow(b,2)- 4 * a * c)) / (2 * a);
 
-   if(pow(b,2) - 4 * a * c < 0)
+   if(pow(b, 2) - 4 * a * c < 0)
      cout << " complex roots " << endl;
-   if (pow(b,2) - 4 * a * c > 0)
+   if (pow(b, 2) - 4 * a * c > 0)
      cout << " two real roots " << endl;
-   if (pow(b,2) - 4 * a * c == 0)
+   if (pow(b, 2) - 4 * a * c == 0)
      cout << " one real root " << endl;
     
  cout << " the 1st root is " << root1 << endl; 
