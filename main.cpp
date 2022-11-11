@@ -12,7 +12,6 @@ int main()
     double root2;
     double singleroot;
 
-    cout << "Enter the values for A, B, C: " << endl;
     cin >> a >> b >> c;
 
    root1 = (-b + sqrt(pow(b,2)- 4 * a * c)) / (2 * a);
