@@ -21,8 +21,8 @@ int main()
    if(pow(b,2) - 4 * a * c < 0)
      cout << "Complex roots " << endl;
    if (pow(b,2) - 4 * a * c > 0)
-     cout << "Two real roots " << " \n- First root " << root1 
-     << " \n- Second root " << root2 << endl;
+     cout << "Two real roots " << " - First root " << root1 
+     << " - Second root " << root2 << endl;
    if (pow(b,2) - 4 * a * c == 0)
      cout <<" The single root is "
      << singleroot << endl;
